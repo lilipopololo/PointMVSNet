@@ -27,7 +27,7 @@ def parse_args():
     parser.add_argument(
         "--cfg",
         dest="config_file",
-        default="",
+        default="E:\PointMVSNet\configs\dtu_wde3.yaml",
         metavar="FILE",
         help="path to config file",
         type=str,
